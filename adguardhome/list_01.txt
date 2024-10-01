@@ -10,7 +10,7 @@
 
 ! video platform
 !||youtube.com^
-youtube.com yewtu.be
+||youtube.com^$dnsrewrite=NOERROR;CNAME;yewtu.be
 ||vimeo.com^
 @@||education.vimeo.com^
 
