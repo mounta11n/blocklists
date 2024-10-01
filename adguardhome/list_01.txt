@@ -1,0 +1,33 @@
+! DNS-over-HTTPS Provider
+||cloudflare-dns.com^
+||dns.google^
+
+! social media
+||facebook.com^
+||instagram.com^
+0.0.0.0 twitter.com
+127.0.0.1 tiktok.com
+
+! video platform
+!||youtube.com^
+youtube.com yewtu.be
+||vimeo.com^
+@@||education.vimeo.com^
+
+! Werbung
+||ads.example.com^
+*banner*.example.org^
+
+! Tracking
+/metrics\.*/
+||analytics.example.net^
+
+! Spezifische Subdomains blockieren
+||ads.facebook.com^
+||analytics.twitter.com^
+
+! Wildcard-Beispiel
+*.doubleclick.net^
+
+! Ausnahmeregel (Whitelist)
+@@||wichtige-ausnahme.com^
