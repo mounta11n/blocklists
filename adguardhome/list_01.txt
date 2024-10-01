@@ -1,4 +1,4 @@
-! DNS-over-HTTPS Provider
+! dns-over-https
 ||cloudflare-dns.com^
 ||dns.google^
 
@@ -14,20 +14,20 @@
 ||vimeo.com^
 @@||education.vimeo.com^
 
-! Werbung
+! ads
 ||ads.example.com^
 *banner*.example.org^
 
-! Tracking
+! tracking
 /metrics\.*/
 ||analytics.example.net^
 
-! Spezifische Subdomains blockieren
+! block specific domains
 ||ads.facebook.com^
 ||analytics.twitter.com^
 
-! Wildcard-Beispiel
+! wildcard
 *.doubleclick.net^
 
-! Ausnahmeregel (Whitelist)
+! excepetion (whitelist)
 @@||wichtige-ausnahme.com^
