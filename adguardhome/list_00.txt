@@ -1,0 +1,1 @@
+||test.adguard.local^$dnsrewrite=NOERROR;A;1.2.3.4
