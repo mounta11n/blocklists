@@ -11,6 +11,7 @@
 ! video platform
 !||youtube.com^
 ||youtube.com^$dnsrewrite=NOERROR;CNAME;yewtu.be
+||test.adguard.local^$dnsrewrite=NOERROR;A;1.2.3.4
 ||vimeo.com^
 @@||education.vimeo.com^
 
